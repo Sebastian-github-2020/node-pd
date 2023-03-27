@@ -1,0 +1,16 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "zaks",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.17.0",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
+  },
+  "scripts": {
+    "start": "nodemon main.js"
+  }
+}
