@@ -7,7 +7,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "4.17.0",
-    "sequelize": "^6.28.0",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0",
     "sqlite3": "^5.1.4"
   },
   "scripts": {

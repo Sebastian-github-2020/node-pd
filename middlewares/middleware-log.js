@@ -1,6 +1,8 @@
 const log = (req,res,next)=>{
-    console.log("log中间件-全局")
-    req.time = Date.now()
+    const time = new Date();
+    console.log(`[${time.toLocaleString()}] ${req.method} ${req.url}`);
+
+
     next()
 }
 
